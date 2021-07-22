@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLaboratorio" targetNamespace="http://tempuri.org/dsLaboratorio.xsd" xmlns:mstns="http://tempuri.org/dsLaboratorio.xsd" xmlns="http://tempuri.org/dsLaboratorio.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLaboratorio" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsLaboratorio" msprop:Generator_UserDSName="dsLaboratorio">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Examenes" msprop:Generator_TableClassName="ExamenesDataTable" msprop:Generator_TableVarName="tableExamenes" msprop:Generator_TablePropName="Examenes" msprop:Generator_RowDeletingName="ExamenesRowDeleting" msprop:Generator_RowChangingName="ExamenesRowChanging" msprop:Generator_RowEvHandlerName="ExamenesRowChangeEventHandler" msprop:Generator_RowDeletedName="ExamenesRowDeleted" msprop:Generator_UserTableName="Examenes" msprop:Generator_RowChangedName="ExamenesRowChanged" msprop:Generator_RowEvArgName="ExamenesRowChangeEvent" msprop:Generator_RowClassName="ExamenesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="movulthis" msdata:ReadOnly="true" msdata:Caption="Historia" msprop:Generator_ColumnVarNameInTable="columnmovulthis" msprop:Generator_ColumnPropNameInRow="movulthis" msprop:Generator_ColumnPropNameInTable="movulthisColumn" msprop:Generator_UserColumnName="movulthis" type="xs:long" />
+              <xs:element name="movultnum" msdata:ReadOnly="true" msdata:Caption="Ingreso" msprop:Generator_ColumnVarNameInTable="columnmovultnum" msprop:Generator_ColumnPropNameInRow="movultnum" msprop:Generator_ColumnPropNameInTable="movultnumColumn" msprop:Generator_UserColumnName="movultnum" type="xs:short" />
+              <xs:element name="pacap1" msdata:ReadOnly="true" msdata:Caption="Primer Apellido" msprop:Generator_ColumnVarNameInTable="columnpacap1" msprop:Generator_ColumnPropNameInRow="pacap1" msprop:Generator_ColumnPropNameInTable="pacap1Column" msprop:Generator_UserColumnName="pacap1" type="xs:string" />
+              <xs:element name="pacap2" msdata:ReadOnly="true" msdata:Caption="Segundo Apellido" msprop:Generator_ColumnVarNameInTable="columnpacap2" msprop:Generator_ColumnPropNameInRow="pacap2" msprop:Generator_ColumnPropNameInTable="pacap2Column" msprop:Generator_UserColumnName="pacap2" type="xs:string" minOccurs="0" />
+              <xs:element name="pacnom" msdata:ReadOnly="true" msdata:Caption="Nombre" msprop:Generator_ColumnVarNameInTable="columnpacnom" msprop:Generator_ColumnPropNameInRow="pacnom" msprop:Generator_ColumnPropNameInTable="pacnomColumn" msprop:Generator_UserColumnName="pacnom" type="xs:string" />
+              <xs:element name="movultfue" msdata:ReadOnly="true" msdata:Caption="Fuente" msprop:Generator_ColumnVarNameInTable="columnmovultfue" msprop:Generator_ColumnPropNameInRow="movultfue" msprop:Generator_ColumnPropNameInTable="movultfueColumn" msprop:Generator_UserColumnName="movultfue" type="xs:string" />
+              <xs:element name="movultdoc" msdata:ReadOnly="true" msdata:Caption="Documento" msprop:Generator_ColumnVarNameInTable="columnmovultdoc" msprop:Generator_ColumnPropNameInRow="movultdoc" msprop:Generator_ColumnPropNameInTable="movultdocColumn" msprop:Generator_UserColumnName="movultdoc" type="xs:long" />
+              <xs:element name="movultlin" msdata:ReadOnly="true" msdata:Caption="Línea" msprop:Generator_ColumnVarNameInTable="columnmovultlin" msprop:Generator_ColumnPropNameInRow="movultlin" msprop:Generator_ColumnPropNameInTable="movultlinColumn" msprop:Generator_UserColumnName="movultlin" type="xs:int" />
+              <xs:element name="movest" msdata:ReadOnly="true" msdata:Caption="Estado" msprop:Generator_ColumnVarNameInTable="columnmovest" msprop:Generator_ColumnPropNameInRow="movest" msprop:Generator_ColumnPropNameInTable="movestColumn" msprop:Generator_UserColumnName="movest" type="xs:string" />
+              <xs:element name="movultcac" msdata:ReadOnly="true" msdata:Caption="Código" msprop:Generator_ColumnVarNameInTable="columnmovultcac" msprop:Generator_ColumnPropNameInRow="movultcac" msprop:Generator_ColumnPropNameInTable="movultcacColumn" msprop:Generator_UserColumnName="movultcac" type="xs:string" />
+              <xs:element name="actnom" msdata:Caption="Actividad" msprop:Generator_ColumnVarNameInTable="columnactnom" msprop:Generator_ColumnPropNameInRow="actnom" msprop:Generator_ColumnPropNameInTable="actnomColumn" msprop:Generator_UserColumnName="actnom" type="xs:string" minOccurs="0" />
+              <xs:element name="movfgb" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnmovfgb" msprop:Generator_ColumnPropNameInRow="movfgb" msprop:Generator_ColumnPropNameInTable="movfgbColumn" msprop:Generator_UserColumnName="movfgb" type="xs:string" minOccurs="0" />
+              <xs:element name="movultest" msdata:ReadOnly="true" msdata:Caption="Estado último" msprop:Generator_ColumnVarNameInTable="columnmovultest" msprop:Generator_ColumnPropNameInRow="movultest" msprop:Generator_ColumnPropNameInTable="movultestColumn" msprop:Generator_UserColumnName="movultest" type="xs:string" />
+              <xs:element name="movobsjus" msdata:ReadOnly="true" msdata:Caption="Detalle" msprop:Generator_ColumnVarNameInTable="columnmovobsjus" msprop:Generator_ColumnPropNameInRow="movobsjus" msprop:Generator_ColumnPropNameInTable="movobsjusColumn" msprop:Generator_UserColumnName="movobsjus" type="xs:string" />
+              <xs:element name="relcardoc" msdata:ReadOnly="true" msdata:Caption="Documento r." msprop:Generator_ColumnVarNameInTable="columnrelcardoc" msprop:Generator_ColumnPropNameInRow="relcardoc" msprop:Generator_ColumnPropNameInTable="relcardocColumn" msprop:Generator_UserColumnName="relcardoc" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
